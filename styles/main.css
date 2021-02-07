@@ -1970,12 +1970,14 @@ h2.title:after {
   font-family:'Times New Roman', Times, serif;
   font-weight: 900;
   color: rgb(255, 255, 255);
+  text-shadow: 2px 2px #000;
 }
 
 .stay-in-touch .subtitulo {
   font-size: 15px;
   line-height: 15px;
   font-family: "cousine", monospace;
+  text-shadow: 2px 2px #000;
 }
 
 .stay-in-touch .titulo:before {
@@ -2627,8 +2629,12 @@ h2.title:after {
   display: none;
 }
 
-.section.new-video {
+.dark-version .section.inverse {
   background-color: #000;
+}
+
+.section.new-video {
+  background-color: #212121;
 }
 
 .section.new-video iframe {
@@ -3441,8 +3447,8 @@ footer {
   overflow: hidden;
 }
 
-footer p.copy {
-  float: left;
+p.copy {
+  text-align: center;
   font-size: 13px;
   letter-spacing: -0.5px;
 }
