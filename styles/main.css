@@ -3762,6 +3762,7 @@ header .navbar-brand img {
   font-family: 'montserrat', sans-serif;
   text-transform: uppercase;
   font-weight: 300;
+  text-shadow: 2px 2px #000;
   color: #eaeaea;
   margin: 20px 0px;
   font-size: 25px;
