@@ -4765,9 +4765,6 @@ img {
   .discography [class*="col-"] {
     padding: 0px 15px;
   }
-  .section.new-video iframe {
-    height: 250px;
-  }
 }
 
 @media (min-width: 1200px) {
@@ -4944,4 +4941,23 @@ img {
 
 .bg-header.contact.header-slider {
   background: url("../images/demo/multi-pages/header-slider/contact/bg.jpg") no-repeat center;
+}
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
